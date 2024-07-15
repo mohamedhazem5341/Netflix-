@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.main {
+    color: #fff;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    background-image: url(/img/EG-en-20240701-POP_SIGNUP_TWO_WEEKS-perspective_WEB_d94d084b-63dd-4f9a-929b-1370ecdfaa43_medium.jpg);
+    padding: 1.3rem 1.1rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.main-header {
+    text-align: center;
+}
+
+.header {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin-bottom: 4rem;
+}
+
+.Netflix-logo {
+    max-width: 150px;
+    color: rgb(229, 9, 20);
+    fill: currentColor;
+    margin-left: 1rem;
+}
+
+.header-right {}
+
+select {}
+
+.header-btn {
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    background: red;
+    color: #fff;
+    padding: .3rem .6rem;
+}
+
+.sec1 {
+    margin-top: 9rem;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec1-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    max-width: 95%;
+    text-align: center;
+}
+
+.sec1-title h2 {
+    font-size: 3rem;
+    line-height: 35px;
+    margin-bottom: 1rem;
+}
+
+.sec1-title p {
+    margin: 1.5rem 0;
+    font-size: 1.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 8rem;
+}
+
+.form p {
+    font-size: 1.2rem;
+    line-height: 25px;
+    margin: 0px 10px 10px 10px;
+}
+
+.form input {
+    border: none;
+    border-radius: 3px;
+    padding: .5rem 10rem .5rem 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.559);
+}
+
+input::placeholder {
+    color: rgba(204, 208, 213, 1);
+}
+
+.form button {
+    font-size: 1.5rem;
+    font-weight: 600;
+    vertical-align: bottom;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: red;
+    padding: .7rem 1.2rem;
+}
+
+.space {
+    margin-left: 1rem;
+    font-weight: 300;
+}
+
+.form .getstart {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+hr {
+    border: 5px solid #232323;
+}
+
+.sec2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background-color: #000;
+    padding: 2rem 9rem;
+    max-width: 100%;
+}
+
+.sec2 .sec2-img {
+    max-width: 450px;
+    min-width: 250px;
+}
+
+.sec2-title h2 {
+    font-weight: 900;
+    font-size: 2.68rem;
+    margin: .8rem 0;
+}
+
+.sec2-title p {
+    max-width: 460px;
+    font-size: 1.43rem;
+}
+
+.mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.download {
+    background: #000;
+    border: 2px solid #5a5a5a;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 5%;
+    align-items: center;
+    position: absolute;
+    top: 63%;
+}
+
+
+.download .download-img {
+    margin: .5rem .5rem .5rem .5rem;
+    max-width: 16%;
+}
+
+.download p {}
+
+.download span {
+    color: #008eec;
+    font-size: .9rem;
+    display: block;
+}
+
+.download .gif {
+    max-width: 11.5%;
+}
+
+.more {
+    color: #fff;
+    background-color: #000;
+    padding: 2rem 9rem;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more h2 {
+    font-weight: 900;
+    font-size: 2.68rem;
+}
+
+
+
+
+@media (max-width: 840px) {
+    .Netflix-logo {
+        max-width: 80px;
+        color: rgb(229, 9, 20);
+        fill: currentColor;
+        margin-left: 0rem;
+    }
+
+    .header {
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 95%;
+        margin-bottom: 0rem;
+    }
+
+    .sec1-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0rem;
+        max-width: 95%;
+        text-align: center;
+    }
+
+    .sec1-title h2 {
+        font-size: 1.95rem;
+        line-height: 35px;
+        margin-bottom: 1rem;
+    }
+
+    .sec1-title p {
+        margin: 1.5rem 0;
+        font-size: 1.3rem;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    .form p {
+        font-size: .99rem;
+        line-height: 25px;
+        margin: 0px 10px 10px 10px;
+    }
+
+    .form input {
+        border: none;
+        border-radius: 3px;
+        padding: .1rem 1rem .1rem 1rem;
+        font-size: .8rem;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.559);
+    }
+
+    .form button {
+        font-size: 1rem;
+        font-weight: 600;
+        vertical-align: bottom;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        background-color: red;
+        padding: .6rem .8rem;
+    }
+
+    .sec2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+        background-color: #000;
+        padding: 2rem 3rem;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .sec2 .sec2-img {
+        margin: auto;
+        max-width: 250px;
+    }
+
+    .sec2-title h2 {
+        font-weight: 900;
+        font-size: 1.8rem;
+        margin: .8rem 0;
+    }
+
+    .sec2-title p {
+        max-width: 460px;
+        font-size: 1rem;
+    }
+
+    .mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .mobile .mob-img {
+        max-width: 100%;
+    }
+
+    .download {
+        max-width: 230px;
+        background: #000;
+        border: 2px solid #5a5a5a;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 5%;
+        align-items: center;
+        position: absolute;
+        top: 63%;
+    }
+
+    .download p {
+        font-size: .8rem;
+    }
+
+    .download img {
+        margin: .5rem .5rem .5rem .5rem;
+        max-width: 16%;
+    }
+
+    .download span {
+        color: #008eec;
+        font-size: .7rem;
+        display: block;
+    }
+
+    .download .gif {
+        max-width: 15.5%;
+    }
+
+    .sec2-title h2 {
+        font-weight: 900;
+        font-size: 1.2rem;
+        margin: .8rem 0;
+    }
+
+    .sec2-title p {
+        font-size: 1rem;
+        margin: .8rem 0;
+    }
+
+    .more {
+        color: #fff;
+        background-color: #000;
+        padding: 2rem 2rem;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .more h2 {
+        margin: 0;
+        padding: 0;
+        font-weight: 900;
+        font-size: 1.26rem;
+    }
+}
+
+@media (max-width: 369px) {
+    .form input {
+        border: none;
+        border-radius: 3px;
+        padding: .1rem .2rem .1rem 1rem;
+    }
+
+    .form button {
+        font-size: 1rem;
+        font-weight: 600;
+        vertical-align: bottom;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        background-color: red;
+        padding: .6rem .6rem;
+    }
+}
